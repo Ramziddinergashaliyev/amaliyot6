@@ -1,0 +1,129 @@
+#product {
+  padding: 60px 0px;
+}
+
+.product__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: blue;
+}
+
+.product__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.product__card__top {
+  position: relative;
+  width: 100%;
+  gap: 30px;
+}
+
+.hover__card {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: none;
+}
+
+.hover__card img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+
+.product__card {
+  width: 31%;
+  cursor: pointer;
+  padding: 20px 0px;
+}
+
+.product__card:hover {
+  .hover__card {
+    display: block;
+  }
+}
+
+.product__btn {
+  margin: 0 auto;
+  display: block;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: blue;
+  color: var(--secondaryColor);
+  padding: 9px 50px;
+  border-radius: 10px;
+  margin-top: 40px;
+  border: 2px solid blue;
+}
+
+.product__btn:hover {
+  border: 2px solid blue;
+  background-color: var(--secondaryColor);
+  color: blue;
+}
+
+
+.product__title {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--primaryColor);
+  padding-bottom: 50px;
+}
+
+.product__card__top {
+  background-color: #F6F6F6;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.product__bottom__title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--primaryColor);
+}
+
+.product__bottom__right {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.product__bottom__left {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: var(--textColor);
+}

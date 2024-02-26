@@ -1,0 +1,38 @@
+.smart__cards {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.smart__card {
+  display: flex;
+  align-items: center;
+  background-color: #F6F6F6;
+  padding: 30px;
+  width: 31%;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.smart__card__title {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.smart__card__text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--textColor);
+  padding: 10px 0px;
+}
